@@ -6,9 +6,8 @@ import Work from './sections/Work';
 import WorkDetail from './sections/WorkDetail';
 import Misc from './sections/Misc';
 import Memories from './sections/Memories';
-import Sketchbook from './sections/Sketchbook';
+import Archive from './sections/Archive';
 import Flappy from './sections/Flappy';
-import GlobalMusicPlayer from './GlobalMusicPlayer';
 
 const CustomCursor: React.FC = () => {
   const [position, setPosition] = useState({ x: -100, y: -100 });
@@ -99,7 +98,6 @@ const App: React.FC = () => {
       <div className="min-h-screen relative selection:bg-zinc-200">
         <CustomCursor />
         <HomeButton />
-        <GlobalMusicPlayer />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -107,7 +105,7 @@ const App: React.FC = () => {
           <Route path="/work/:id" element={<WorkDetail />} />
           <Route path="/misc" element={<Misc />} />
           <Route path="/memories" element={<Memories />} />
-          <Route path="/sketchbook" element={<Sketchbook />} />
+          <Route path="/archive" element={<Archive />} />
           <Route path="/flappy" element={<Flappy />} />
         </Routes>
       </div>

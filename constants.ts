@@ -17,14 +17,37 @@ export const PROJECTS: Project[] = [
     ]
   },
   {
-    id: 'creative-image-making',
-    title: 'Creative Image Making',
-    description: 'A comprehensive study on visual storytelling and image construction techniques.',
-    fullContent: 'This scroll contains a curated collection of techniques, explorations, and finished works that define my approach to image making. From analog textures to digital manipulation, it explores the boundaries of the frame.',
-    imageUrl: 'https://picsum.photos/seed/creative-image/1200/800',
-    category: 'Process & Final Execution',
+    id: 'oncology-brochure',
+    title: 'Oncology Brochure',
+    description: 'Professional print collateral designed for a medical oncology conference, balancing technical medical data with a clean, accessible visual hierarchy.',
+    fullContent: 'Working with a real-world client in the medical field, the objective was to create a cohesive information packet for an oncology conference. The design emphasizes clarity and trust, utilizing a structured grid to manage dense medical text and schedule information while maintaining a professional and comforting aesthetic. The project included a tri-fold brochure and large-scale exhibition displays.',
+    imageUrl: 'https://lh3.googleusercontent.com/d/1X1sbrLYsM9zvzrwdoF9V3s9R9yWvmGvs',
+    category: 'Graphic Design',
     year: '2024',
-    pdfUrl: 'https://drive.google.com/file/d/175O699-khE8ibN2g6rdIXcV1sq-uxtTJ/preview'
+    processImages: [
+      { url: 'https://lh3.googleusercontent.com/d/1X1sbrLYsM9zvzrwdoF9V3s9R9yWvmGvs', label: 'Brochure: Cover & Back Panel' },
+      { url: 'https://lh3.googleusercontent.com/d/1tnUAc-7npElJi-0RYfjPXPDvKAreopBn', label: 'Brochure: Interior Information Spread' },
+      { url: 'https://lh3.googleusercontent.com/d/1mbGseD_LdDuy716ohz254St5Vbc78ndL', label: 'Conference Exhibition Board' }
+    ]
+  },
+  {
+    id: 'character-type-design',
+    title: 'Character & Type Design',
+    description: 'A visual identity and character study for a female Malayali punk rock band, inspired by the predatory botanical forms of the Venus Flytrap.',
+    fullContent: 'This project explores character and type design based on the Venus Flytrap plant. I created a female Malayali punk rock band based on that plant, blending organic, aggressive botanical elements with the rebellious spirit of punk culture. The work includes custom typography and detailed character posters for each band member.',
+    imageUrl: 'https://lh3.googleusercontent.com/d/1aYoNis4gn2ET4gt-ltwKU7EzReuRtlLF',
+    category: 'Illustration & Typography',
+    year: '2024',
+    processImages: [
+      { url: 'https://lh3.googleusercontent.com/d/1aYoNis4gn2ET4gt-ltwKU7EzReuRtlLF', label: 'Final Band Poster' },
+      { url: 'https://lh3.googleusercontent.com/d/1lXR3RsdiUhVvT706XyQORFLPeklnjGuo', label: 'Typography & Type Design' },
+      { url: 'https://lh3.googleusercontent.com/d/1WnM_md5X4NGJJbO-g5JTkZa_649fOPHX', label: 'Band Member 01 Poster' },
+      { url: 'https://lh3.googleusercontent.com/d/1GEUqxzVhbQZN5CeCby5ID5a0gCVznGRo', label: 'Band Member 02 Poster' },
+      { url: 'https://lh3.googleusercontent.com/d/1c9E0sD-abOUv2125SXSgljsHycp_QNC-', label: 'Band Member 03 Poster' },
+      { url: 'https://lh3.googleusercontent.com/d/1BDPdHeVfJH0jJFS6SPJdExCkuUQLXoWr', label: 'Band Member 04 Poster' },
+      { url: 'https://lh3.googleusercontent.com/d/1K3j85_kHifRlneji7jj6_qWIh3WLJzLq', label: 'Band Member 05 Poster' },
+      { url: 'https://lh3.googleusercontent.com/d/1d6AdOsv9m_YLs0DYm1SecvOfubP6avsb', label: 'Band Member 06 Poster' }
+    ]
   },
   {
     id: 'digital-dreams',
@@ -58,6 +81,20 @@ export const PROJECTS: Project[] = [
   }
 ];
 
+export const ARCHIVE_PROJECTS = [
+  {
+    id: 'character-walk-cycle',
+    title: 'Character Design & Walk Cycle',
+    year: '2023',
+    description: 'Experimental character study focusing on locomotion and anatomical silhouette.',
+    assets: [
+      { type: 'image', url: 'https://lh3.googleusercontent.com/d/1TGmR3IrzKq5cutr6OXty7BB2fz6ywvWt', label: 'Character_Design_Sheet' },
+      { type: 'image', url: 'https://lh3.googleusercontent.com/d/13dsy1zBeWRbFk0C-UsSAg32fEwMX5w53', label: 'Walk_Cycle_Breakdown' },
+      { type: 'video', url: 'https://drive.google.com/file/d/19aRR3JZ8J_ggTc5wWGf22FwAZmlMY8SZ/preview', label: 'Locomotion_Loop' }
+    ]
+  }
+];
+
 export const NARRATIVE_STORY = [
   { id: 'narrative-1', url: 'https://lh3.googleusercontent.com/d/1e7xvkEspQCFnPck--_gQqnAkvQEh4yQx', caption: 'Step I' },
   { id: 'narrative-2', url: 'https://lh3.googleusercontent.com/d/1ZggYiil-nibHaJGQHz7Yp505nMIbj3ew', caption: 'Step II' },
@@ -75,4 +112,4 @@ export const MEMORIES: Memory[] = [
   { id: 'm7', url: 'https://lh3.googleusercontent.com/d/1hSJB9EOZJ0kn9I7b1UL9bgszIeWLZMbG', caption: 'Captured Moment 07' },
 ];
 
-export const LANGUAGES = ["Kimaya", "കിമായ", "கிமாயா", "किमाया"];
+export const LANGUAGES = ["Kimaya", "കിമായ", "கிமாயா", "किமாயാ"];
